@@ -311,6 +311,7 @@ export interface CreateEventInput {
   category: EventCategory
   subcategory?: EventSubcategory | null
   start_date: string
+  end_date?: string | null
   start_time?: string | null
   end_time?: string | null
   price?: number | null
