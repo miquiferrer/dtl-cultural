@@ -163,7 +163,6 @@ interface LocationDraft {
 function RegisterForm() {
   const router = useRouter()
   const searchParams = useSearchParams()
-  const supabase = createClient()
 
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -222,6 +221,7 @@ function RegisterForm() {
     }
 
     // Auto sign-in after successful registration
+    const supabase = createClient()
     const { error: signInError } = await supabase.auth.signInWithPassword({ email, password })
 
     if (signInError) {
