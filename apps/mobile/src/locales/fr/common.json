@@ -1,0 +1,75 @@
+{
+  "nav": { "events": "Événements", "map": "Carte", "settings": "Paramètres" },
+  "common": {
+    "all": "Tous",
+    "apply": "Appliquer",
+    "save": "Enregistrer",
+    "close": "Fermer",
+    "noResults": "Aucun résultat"
+  },
+  "categories": {
+    "all": "Tous",
+    "art": "🎨 Art",
+    "cinema": "🎬 Cinéma",
+    "family": "👨‍👩‍👧 Famille",
+    "festivals": "🎪 Festivals",
+    "food": "🍴 Gastro",
+    "music": "🎵 Musique",
+    "networking": "🤝 Networking",
+    "nightlife": "🌙 Nuit",
+    "solidarity": "❤️ Solidarité",
+    "sports": "⚽ Sport",
+    "tech": "💻 Tech",
+    "theatre": "🎭 Théâtre",
+    "traditions": "🏛 Traditions",
+    "university": "🎓 Uni",
+    "wellness": "🧘 Bien-être",
+    "workshops": "🛠 Ateliers"
+  },
+  "filter": {
+    "allSubcats": "Toutes",
+    "selectSubcats": "Sélectionnez une ou plusieurs sous-catégories"
+  },
+  "dateFilter": {
+    "label": "Dates",
+    "all": "Toutes les dates",
+    "today": "Aujourd'hui",
+    "weekend": "Ce week-end",
+    "thisWeek": "Cette semaine",
+    "next7Days": "7 prochains jours",
+    "thisMonth": "Ce mois-ci"
+  },
+  "events": {
+    "today": "Aujourd'hui",
+    "upcoming": "Prochains événements",
+    "priceUnknown": "Prix à définir",
+    "noResults": "Aucun résultat",
+    "todayBadge": "Aujourd'hui"
+  },
+  "map": {
+    "noEventsTitle": "Aucun événement",
+    "noEventsDesc": "Aucun événement prévu pour les dates sélectionnées.",
+    "seeDetail": "Voir les détails →",
+    "multiEvents": "{{count}} événements ici"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "languageLabel": "Langue de l'application",
+    "notifications": "Alertes d'événements",
+    "notifDesc": "Recevez un email lorsque des événements de vos catégories préférées sont publiés.",
+    "notifEmail": "Recevoir des alertes par email",
+    "saved": "Préférences enregistrées !",
+    "selectCategories": "Sélectionnez vos catégories préférées"
+  },
+  "auth": { "signOut": "Déconnexion" },
+  "app": { "title": "Agenda Culturel de Terrasse" },
+  "onboarding": {
+    "title": "Bienvenue !",
+    "subtitle": "Configurez vos alertes",
+    "description": "Recevez un email quand des événements de vos catégories préférées sont publiés. Vous pouvez modifier cela dans Paramètres.",
+    "emailToggle": "Activer les alertes par email",
+    "categoriesLabel": "Quels types d'événements vous intéressent ?",
+    "saveButton": "Enregistrer et continuer",
+    "skipButton": "Passer pour l'instant"
+  }
+}

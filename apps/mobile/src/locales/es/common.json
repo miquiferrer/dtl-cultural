@@ -1,0 +1,75 @@
+{
+  "nav": { "events": "Eventos", "map": "Mapa", "settings": "Ajustes" },
+  "common": {
+    "all": "Todos",
+    "apply": "Aplicar",
+    "save": "Guardar",
+    "close": "Cerrar",
+    "noResults": "No hay resultados"
+  },
+  "categories": {
+    "all": "Todos",
+    "art": "🎨 Arte",
+    "cinema": "🎬 Cine",
+    "family": "👨‍👩‍👧 Familiar",
+    "festivals": "🎪 Festivales",
+    "food": "🍴 Gastro",
+    "music": "🎵 Música",
+    "networking": "🤝 Networking",
+    "nightlife": "🌙 Noche",
+    "solidarity": "❤️ Solidario",
+    "sports": "⚽ Deporte",
+    "tech": "💻 Tech",
+    "theatre": "🎭 Teatro",
+    "traditions": "🏛 Tradiciones",
+    "university": "🎓 Uni",
+    "wellness": "🧘 Bienestar",
+    "workshops": "🛠 Talleres"
+  },
+  "filter": {
+    "allSubcats": "Todas",
+    "selectSubcats": "Selecciona una o más subcategorías"
+  },
+  "dateFilter": {
+    "label": "Fechas",
+    "all": "Todas las fechas",
+    "today": "Hoy",
+    "weekend": "Este fin de semana",
+    "thisWeek": "Esta semana",
+    "next7Days": "Próximos 7 días",
+    "thisMonth": "Este mes"
+  },
+  "events": {
+    "today": "Hoy",
+    "upcoming": "Próximos eventos",
+    "priceUnknown": "Por definir",
+    "noResults": "No hay resultados",
+    "todayBadge": "Hoy"
+  },
+  "map": {
+    "noEventsTitle": "Sin eventos",
+    "noEventsDesc": "No hay eventos programados para las fechas seleccionadas.",
+    "seeDetail": "Ver detalle →",
+    "multiEvents": "{{count}} eventos aquí"
+  },
+  "settings": {
+    "title": "Ajustes",
+    "languageLabel": "Idioma de la app",
+    "notifications": "Alertas de eventos",
+    "notifDesc": "Recibe un email cuando se publiquen eventos de tus categorías favoritas.",
+    "notifEmail": "Recibir alertas por email",
+    "saved": "¡Preferencias guardadas!",
+    "selectCategories": "Selecciona las categorías que te interesan"
+  },
+  "auth": { "signOut": "Salir" },
+  "app": { "title": "Agenda Cultural de Terrassa" },
+  "onboarding": {
+    "title": "¡Bienvenido/a!",
+    "subtitle": "Configura tus alertas",
+    "description": "Recibe un email cuando se publiquen eventos de las categorías que elijas. Puedes cambiar esto más tarde en Ajustes.",
+    "emailToggle": "Activar alertas por email",
+    "categoriesLabel": "¿Qué tipo de eventos te interesan?",
+    "saveButton": "Guardar y continuar",
+    "skipButton": "Omitir por ahora"
+  }
+}

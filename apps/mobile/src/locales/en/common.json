@@ -1,0 +1,75 @@
+{
+  "nav": { "events": "Events", "map": "Map", "settings": "Settings" },
+  "common": {
+    "all": "All",
+    "apply": "Apply",
+    "save": "Save",
+    "close": "Close",
+    "noResults": "No results"
+  },
+  "categories": {
+    "all": "All",
+    "art": "🎨 Art",
+    "cinema": "🎬 Cinema",
+    "family": "👨‍👩‍👧 Family",
+    "festivals": "🎪 Festivals",
+    "food": "🍴 Food",
+    "music": "🎵 Music",
+    "networking": "🤝 Networking",
+    "nightlife": "🌙 Nightlife",
+    "solidarity": "❤️ Solidarity",
+    "sports": "⚽ Sports",
+    "tech": "💻 Tech",
+    "theatre": "🎭 Theatre",
+    "traditions": "🏛 Traditions",
+    "university": "🎓 Uni",
+    "wellness": "🧘 Wellness",
+    "workshops": "🛠 Workshops"
+  },
+  "filter": {
+    "allSubcats": "All",
+    "selectSubcats": "Select one or more subcategories"
+  },
+  "dateFilter": {
+    "label": "Dates",
+    "all": "All dates",
+    "today": "Today",
+    "weekend": "This weekend",
+    "thisWeek": "This week",
+    "next7Days": "Next 7 days",
+    "thisMonth": "This month"
+  },
+  "events": {
+    "today": "Today",
+    "upcoming": "Upcoming events",
+    "priceUnknown": "Price TBD",
+    "noResults": "No results",
+    "todayBadge": "Today"
+  },
+  "map": {
+    "noEventsTitle": "No events",
+    "noEventsDesc": "No events scheduled for the selected dates.",
+    "seeDetail": "See details →",
+    "multiEvents": "{{count}} events here"
+  },
+  "settings": {
+    "title": "Settings",
+    "languageLabel": "App language",
+    "notifications": "Event alerts",
+    "notifDesc": "Receive an email when events from your favourite categories are published.",
+    "notifEmail": "Receive email alerts",
+    "saved": "Preferences saved!",
+    "selectCategories": "Select your categories of interest"
+  },
+  "auth": { "signOut": "Sign out" },
+  "app": { "title": "Terrassa Cultural Agenda" },
+  "onboarding": {
+    "title": "Welcome!",
+    "subtitle": "Set up your alerts",
+    "description": "Get an email when events from your chosen categories are published. You can change this later in Settings.",
+    "emailToggle": "Enable email alerts",
+    "categoriesLabel": "Which types of events interest you?",
+    "saveButton": "Save & continue",
+    "skipButton": "Skip for now"
+  }
+}

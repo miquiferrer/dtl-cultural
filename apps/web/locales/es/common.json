@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "dashboard": "Panel",
+    "events": "Eventos",
+    "newEvent": "Nuevo evento",
+    "subscription": "Suscripción",
+    "logout": "Cerrar sesión",
+    "admin": "Administración"
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "organizationName": "Nombre de la organización",
+    "city": "Ciudad",
+    "loginTitle": "Bienvenido de nuevo",
+    "registerTitle": "Crea tu cuenta",
+    "noAccount": "¿No tienes cuenta?",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "forgotPassword": "¿Olvidaste tu contraseña?"
+  },
+  "events": {
+    "title": "Mis eventos",
+    "status": {
+      "pending": "Pendiente",
+      "approved": "Aprobado",
+      "rejected": "Rechazado"
+    },
+    "category": {
+      "music": "Música",
+      "theatre": "Teatro",
+      "food": "Gastronomía",
+      "other": "Otros"
+    },
+    "fields": {
+      "title": "Título",
+      "description": "Descripción",
+      "category": "Categoría",
+      "startDate": "Fecha de inicio",
+      "endDate": "Fecha de fin (opcional)",
+      "price": "Precio (€)",
+      "priceFree": "Gratuito",
+      "location": "Dirección del evento",
+      "poster": "Imagen del cartel",
+      "posterUrl": "URL del cartel (opcional)",
+      "website": "Página web (opcional)"
+    },
+    "actions": {
+      "create": "Publicar evento",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "save": "Guardar cambios"
+    },
+    "empty": "Aún no has publicado ningún evento.",
+    "newEvent": "Nuevo evento",
+    "posterUploadHint": "JPG, PNG o WebP · Máx. 5 MB",
+    "locationPickerHint": "Haz clic en el mapa para fijar la ubicación",
+    "rejectionReason": "Motivo del rechazo"
+  },
+  "subscription": {
+    "title": "Tu suscripción",
+    "current": "Plan actual",
+    "postsUsed": "{{used}} de {{limit}} publicaciones usadas este mes",
+    "upgrade": "Mejorar plan",
+    "manage": "Gestionar suscripción",
+    "tiers": {
+      "free": {
+        "name": "Gratuito",
+        "price": "€0 / mes",
+        "posts": "1 publicación / mes"
+      },
+      "basic": {
+        "name": "Básico",
+        "price": "€9,99 / mes",
+        "posts": "10 publicaciones / mes"
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€100 / mes",
+        "posts": "100 publicaciones / mes"
+      }
+    }
+  },
+  "admin": {
+    "pendingEvents": "Eventos pendientes",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "rejectionReasonPlaceholder": "Indica el motivo del rechazo...",
+    "users": "Usuarios",
+    "cities": "Ciudades",
+    "analytics": "Analítica"
+  },
+  "errors": {
+    "postLimitReached": "Has alcanzado el límite de publicaciones de tu plan. Actualiza tu suscripción.",
+    "generic": "Ha ocurrido un error. Por favor, inténtalo de nuevo.",
+    "fileTooLarge": "El archivo supera el tamaño máximo de 5 MB.",
+    "invalidFileType": "Solo se permiten imágenes JPG, PNG o WebP."
+  }
+}

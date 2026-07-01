@@ -1,0 +1,75 @@
+{
+  "nav": { "events": "Esdeveniments", "map": "Mapa", "settings": "Ajustos" },
+  "common": {
+    "all": "Tots",
+    "apply": "Aplicar",
+    "save": "Desar",
+    "close": "Tancar",
+    "noResults": "No hi ha resultats"
+  },
+  "categories": {
+    "all": "Tots",
+    "art": "🎨 Art",
+    "cinema": "🎬 Cinema",
+    "family": "👨‍👩‍👧 Familiar",
+    "festivals": "🎪 Festivals",
+    "food": "🍴 Gastro",
+    "music": "🎵 Música",
+    "networking": "🤝 Networking",
+    "nightlife": "🌙 Nit",
+    "solidarity": "❤️ Solidari",
+    "sports": "⚽ Esport",
+    "tech": "💻 Tech",
+    "theatre": "🎭 Teatre",
+    "traditions": "🏛 Tradicions",
+    "university": "🎓 Uni",
+    "wellness": "🧘 Benestar",
+    "workshops": "🛠 Tallers"
+  },
+  "filter": {
+    "allSubcats": "Totes",
+    "selectSubcats": "Selecciona una o més subcategories"
+  },
+  "dateFilter": {
+    "label": "Dates",
+    "all": "Totes les dates",
+    "today": "Avui",
+    "weekend": "Aquest cap de setmana",
+    "thisWeek": "Aquesta setmana",
+    "next7Days": "Propers 7 dies",
+    "thisMonth": "Aquest mes"
+  },
+  "events": {
+    "today": "Avui",
+    "upcoming": "Propers esdeveniments",
+    "priceUnknown": "Per definir",
+    "noResults": "No hi ha resultats",
+    "todayBadge": "Avui"
+  },
+  "map": {
+    "noEventsTitle": "Sense esdeveniments",
+    "noEventsDesc": "No hi ha esdeveniments programats per a les dates seleccionades.",
+    "seeDetail": "Veure detall →",
+    "multiEvents": "{{count}} esdeveniments aquí"
+  },
+  "settings": {
+    "title": "Ajustos",
+    "languageLabel": "Idioma de l'app",
+    "notifications": "Alertes d'esdeveniments",
+    "notifDesc": "Rep un correu quan es publiquin esdeveniments de les teves categories favorites.",
+    "notifEmail": "Rebre alertes per correu",
+    "saved": "Preferències desades!",
+    "selectCategories": "Selecciona les categories que t'interessen"
+  },
+  "auth": { "signOut": "Sortir" },
+  "app": { "title": "Agenda Cultural de Terrassa" },
+  "onboarding": {
+    "title": "Benvingut/da!",
+    "subtitle": "Configura les teves alertes",
+    "description": "Rep un correu quan es publiquin esdeveniments de les categories que triïs. Ho pots canviar més endavant a Ajustos.",
+    "emailToggle": "Activar alertes per correu",
+    "categoriesLabel": "Quin tipus d'esdeveniments t'interessen?",
+    "saveButton": "Desa i continua",
+    "skipButton": "Ometre de moment"
+  }
+}

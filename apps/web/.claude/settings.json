@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat /Users/miquelf/code/dtl-cultural/node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js)",
+      "Read(//Users/miquelf/code/dtl-cultural/node_modules/next/dist/build/webpack/loaders/next-font-loader/**)",
+      "Bash(find /Users/miquelf/code/dtl-cultural/node_modules/next/dist/compiled/@next/font -name \"*.js\" | xargs grep -l \"_app\\\\b\" 2>/dev/null | head -5)",
+      "Read(//Users/miquelf/code/dtl-cultural/node_modules/next/dist/compiled/@next/font/**)",
+      "Bash(find /Users/miquelf/code/dtl-cultural/node_modules/next/dist -path \"*/font/google*\" -name \"*.js\" | grep -v \".map\" | head -10)",
+      "Read(//Users/miquelf/code/dtl-cultural/node_modules/next/dist/**)",
+      "Bash(ls -la /Users/miquelf/code/dtl-cultural/node_modules/lightningcss-darwin-arm64/lightningcss.darwin-arm64.node 2>/dev/null && echo \"binary present\")",
+      "Read(//Users/miquelf/code/dtl-cultural/node_modules/lightningcss-darwin-arm64/**)",
+      "Bash(node -e \"require\\('/Users/miquelf/code/dtl-cultural/node_modules/lightningcss-darwin-arm64/lightningcss.darwin-arm64.node'\\); console.log\\('loads fine'\\)\")",
+      "Bash(node -e \"const lc = require\\('/Users/miquelf/code/dtl-cultural/node_modules/lightningcss'\\); console.log\\('lightningcss version:', lc\\); const r = lc.transform\\({filename: 'test.css', code: Buffer.from\\('.foo { color: red }'\\), minify: false}\\); console.log\\('transform works:', r.code.toString\\(\\)\\)\")",
+      "Bash(node -e \"const tc = require\\('/Users/miquelf/code/dtl-cultural/node_modules/@tailwindcss/postcss'\\); console.log\\('tailwindcss postcss loaded', typeof tc\\)\")",
+      "Bash(node -e \"const tc = require\\('/Users/miquelf/code/dtl-cultural/node_modules/@tailwindcss/postcss/dist/index.js'\\); console.log\\('tailwindcss postcss loaded', typeof tc\\)\")",
+      "Bash(ls /Users/miquelf/code/dtl-cultural/node_modules/@tailwindcss/oxide-darwin-arm64/ 2>/dev/null)",
+      "Read(//Users/miquelf/code/dtl-cultural/node_modules/@tailwindcss/oxide-darwin-arm64/**)",
+      "Bash(node -e \"require\\('/Users/miquelf/code/dtl-cultural/node_modules/@tailwindcss/oxide-darwin-arm64/tailwindcss-oxide.darwin-arm64.node'\\); console.log\\('ok'\\)\")",
+      "Bash(npm pack *)",
+      "Bash(rm -rf /tmp/tailwindcss-oxide-pkg)",
+      "Bash(mkdir /tmp/tailwindcss-oxide-pkg)",
+      "Bash(tar -xzf /tmp/tailwindcss-oxide-darwin-arm64-4.3.0.tgz -C /tmp/tailwindcss-oxide-pkg)",
+      "Bash(cp /tmp/tailwindcss-oxide-pkg/package/tailwindcss-oxide.darwin-arm64.node /Users/miquelf/code/dtl-cultural/node_modules/@tailwindcss/oxide-darwin-arm64/)",
+      "Bash(codesign -dv /Users/miquelf/code/dtl-cultural/node_modules/lightningcss-darwin-arm64/lightningcss.darwin-arm64.node)",
+      "Bash(codesign -dv /Users/miquelf/code/dtl-cultural/node_modules/@tailwindcss/oxide-darwin-arm64/tailwindcss-oxide.darwin-arm64.node)",
+      "Bash(ls /tmp/tailwindcss-oxide-pkg/package/)",
+      "Read(//private/tmp/tailwindcss-oxide-pkg/package/**)",
+      "Bash(cp /tmp/tailwindcss-oxide-pkg/package/tailwindcss-oxide.darwin-arm64.node /Users/miquelf/code/dtl-cultural/node_modules/@tailwindcss/oxide-darwin-arm64/ && ls -la /Users/miquelf/code/dtl-cultural/node_modules/@tailwindcss/oxide-darwin-arm64/)",
+      "Bash(node -e \"const tc = require\\('/Users/miquelf/code/dtl-cultural/node_modules/@tailwindcss/postcss/dist/index.js'\\); console.log\\('tailwindcss postcss loaded, type:', typeof tc\\)\")"
+    ],
+    "additionalDirectories": [
+      "/private/tmp/tailwindcss-oxide-pkg/package"
+    ]
+  }
+}

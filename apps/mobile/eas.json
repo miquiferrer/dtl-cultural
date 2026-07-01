@@ -1,0 +1,43 @@
+{
+  "cli": {
+    "version": ">= 14.0.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "base": {
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://hkntsxmigdxxtyskjzhr.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_wLdmGxVnAGACBGTy30k-gA_ztnZIC4n",
+        "EXPO_PUBLIC_GOOGLE_MAPS_KEY": "AIzaSyA0PTtFGqdxdBBPuP0pRWN1gbJXJ0KlakU"
+      }
+    },
+    "development": {
+      "extends": "base",
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_CITY_SLUG": "demo",
+        "EXPO_PUBLIC_CITY_NAME": "Demo",
+        "EXPO_PUBLIC_APP_NAME": "Cultura Demo (Dev)"
+      }
+    },
+    "preview": {
+      "extends": "base",
+      "distribution": "internal"
+    },
+    "terrassa": {
+      "extends": "base",
+      "distribution": "store",
+      "env": {
+        "EXPO_PUBLIC_CITY_SLUG": "terrassa",
+        "EXPO_PUBLIC_CITY_NAME": "Terrassa",
+        "EXPO_PUBLIC_APP_NAME": "Cultura Terrassa",
+        "GOOGLE_SERVICES_JSON": "./google-services.json"
+      }
+    }
+  },
+  "submit": {
+    "production": {},
+    "terrassa": {}
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "754407473755",
+    "project_id": "terrassacultura-99cda",
+    "storage_bucket": "terrassacultura-99cda.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754407473755:android:eb8cffb4dad310287e757e",
+        "android_client_info": {
+          "package_name": "com.zeralion.agendaterrassa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcKlIixrjTDWQc3NLV-ROyXGmem1017uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
