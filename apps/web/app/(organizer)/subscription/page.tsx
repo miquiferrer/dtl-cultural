@@ -1,7 +1,7 @@
 import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import Link from 'next/link'
-import { stripe } from '@/lib/stripe'
+import { getStripe } from '@/lib/stripe'
 import type { Profile } from '@dtl-cultural/shared'
 
 const TIERS = [
@@ -57,7 +57,7 @@ export default async function SubscriptionPage() {
   // Get Stripe portal URL for existing subscribers
   let portalUrl: string | null = null
   if (profile.stripe_customer_id && currentTier !== 'free') {
-    const session = await stripe.billingPortal.sessions.create({
+    const session = await getStripe().billingPortal.sessions.create({
       customer: profile.stripe_customer_id,
       return_url: `${process.env.NEXT_PUBLIC_APP_URL}/subscription`,
     })
