@@ -1,0 +1,28 @@
+{
+  "name": "dtl-cultural",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "format": "prettier --write \"**/*.{ts,tsx,json,md}\""
+  },
+  "devDependencies": {
+    "turbo": "^2.5.4",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  },
+  "overrides": {
+    "react-native-screens": "4.23.0",
+    "react-native-safe-area-context": "5.6.2"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "npm@11.4.2"
+}
