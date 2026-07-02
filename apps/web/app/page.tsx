@@ -320,6 +320,7 @@ export default function LandingPage() {
             <Link href="/privacidad" className="hover:text-white/80 transition">Privacidad</Link>
             <Link href="/cookies" className="hover:text-white/80 transition">Cookies</Link>
             <Link href="/terminos" className="hover:text-white/80 transition">Términos</Link>
+            <Link href="/aviso-legal" className="hover:text-white/80 transition">Aviso legal</Link>
             <Link href="/login" className="hover:text-white/80 transition">Acceso organizadores</Link>
           </div>
           <p className="text-xs text-white/30">© 2026 Agenda Cultural de Terrassa. Todos los derechos reservados.</p>
